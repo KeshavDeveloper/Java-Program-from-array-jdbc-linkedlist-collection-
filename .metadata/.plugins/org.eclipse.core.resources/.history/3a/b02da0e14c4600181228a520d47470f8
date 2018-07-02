@@ -1,0 +1,77 @@
+package org.passwordDemo;
+
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class PasswordCheck 
+{
+	//public static final String special_char= "[!@#$%^*()[\\\\]|;',./{}\\\\\\\\:\\\"<>?]";
+    Pattern p = Pattern.compile("[!@#$%^*()[\\\\\\\\]|;',./{}\\\\\\\\\\\\\\\\:\\\\\\\"<>?]");
+   // Matcher m = p.matcher(s);
+
+
+
+	
+	void check()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter your password:");
+		String pass=sc.next();
+		int length=pass.length();
+	     Matcher m = p.matcher(pass);
+	     boolean b=m.find();
+
+		boolean password=false;
+		if(length>=6 && length<=15)
+		{
+			
+		
+		for(int i=0;i<length;i++)
+		{
+			char c=pass.charAt(i);
+			
+			
+			if(Character.isUpperCase(c) || Character.isLowerCase(c) || Character.isDigit(c)|| b  )
+					{
+				password=true;
+				
+					}
+			
+			else if(password==true)
+			{
+				if(Character.isUpperCase(c) && Character.isLowerCase(c)||Character.isDigit(c)||b)
+				{
+					System.out.println("very weak");
+				}
+				else if(Character.isUpperCase(c) && Character.isLowerCase(c)&&Character.isDigit(c)||b)
+				{
+					System.out.println("weak");
+					
+				}
+				else if(Character.isUpperCase(c) && Character.isLowerCase(c)&&Character.isDigit(c)&&b)
+				{
+					System.out.println("Strong");
+					
+				}
+				else
+					System.out.println("very strong");
+			}	
+			
+		}
+		}
+		else
+			System.out.println("invalid password");
+		}
+		//else if(password)
+		//{
+		//	if()
+			
+		//}
+			
+		}
+		
+	
+	
+
+

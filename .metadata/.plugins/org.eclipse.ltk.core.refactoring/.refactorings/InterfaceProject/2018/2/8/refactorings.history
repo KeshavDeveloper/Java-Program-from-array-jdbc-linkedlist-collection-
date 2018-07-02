@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.bankDemo.SBI&apos; to &apos;SBI_IMPL&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceProject&apos;&#x0D;&#x0A;- Original element: &apos;org.bankDemo.SBI&apos;&#x0D;&#x0A;- Renamed element: &apos;org.bankDemo.SBI_IMPL&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SBI&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.bankDemo{SBI.java[SBI" matchStrategy="1" name="SBI_IMPL" qualified="false" references="true" similarDeclarations="false" stamp="1519227926312" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.collectionDemo.MapinterfaceTest&apos; to &apos;T&apos;&#x0D;&#x0A;- Original project: &apos;CollectionFrameWork&apos;&#x0D;&#x0A;- Original element: &apos;org.collectionDemo.MapinterfaceTest&apos;&#x0D;&#x0A;- Renamed element: &apos;org.collectionDemo.T&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MapinterfaceTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.collectionDemo{MapinterfaceTest.java[MapinterfaceTest" matchStrategy="1" name="T" qualified="false" references="true" similarDeclarations="false" stamp="1519926204808" textual="false" version="1.0"/>
+</session>
